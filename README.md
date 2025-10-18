@@ -11,10 +11,9 @@ A collection of notebooks and utilities for exploring warehouse/robot path plann
 
 ## Repository Structure
 - **Notebooks**
-  - `algo_bfs.ipynb` – Breadth-first search baseline.
-  - `algo_greedy.ipynb` – Greedy heuristic approach.
-  - `algo_ga.ipynb` / `algo_ga_4x4.ipynb` – Genetic Algorithm experiments (incl. 4x4 setup).
-  - `algo_pso.ipynb` – Particle Swarm Optimization approach.
+  - `algo_bfs.ipynb` – Puzzle-based: BFS with DP algorithm 
+  - `algo_greedy.ipynb`, `algo_ga.ipynb`, `algo_ga_4x4.ipynb`, `algo_pso.ipynb` – Kiva System: Greedy, Genetic Algorithm, Genetic Algorithm (4x4), Particle Swarm Optimization
+  - `rein_dqn.ipynb`, `rein_maac.ipynb` – Deep Reinforcement Learning experiments (DQN, MAAC variants).
   - `model_kiva.ipynb`, `model_spa.ipynb`, `model_obs.ipynb` – Integer Programming Model for kiva system, puzzle-based system (obstacle view), puzzle-based system (space view).
   - `preprocess_*.ipynb`, `input_generator*.ipynb`, `output_*.ipynb` – Data preparation, input generation, and results processing.
 - **Data**
